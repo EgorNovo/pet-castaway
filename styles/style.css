@@ -1,0 +1,396 @@
+/*----------------------------header-----------------------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 26px 50px;
+}
+
+.header-logo {
+  width: 160px;
+  height: 33px;
+}
+
+.header-list {
+  display: flex;
+  gap:40px;
+  list-style-type: none;
+  padding: 20px;
+
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.header-list-item-link {
+  text-decoration: none;
+}
+
+.header-list-item-link-active {
+  color: #118DA8;
+}
+
+/*----------------------------cover-----------------------*/
+.cover {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 40px 60px 0;
+}
+
+.cover-img {
+  width: 650px;
+  height: 873px;
+  border-radius: 12px;
+}
+
+.cover-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-content h1 {
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px; /* 125.714% */
+  letter-spacing: 3.2px;
+}
+
+.cover-bold {
+  font-weight: 700;
+}
+
+.cover-inderline {
+  background-image: url(../images/vector-cover-blue.svg);
+}
+
+.cover-content p {
+  margin-top: 90px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.cover-link-list {
+  display: flex;
+  gap: 17px;
+  list-style-type: none;
+}
+
+.cover-list-item-icon {
+  margin-top: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+/*----------------------------episodes-----------------------*/
+
+.episodes {
+  margin: 100px 20px 0;
+  padding: 0 50px 160px;
+}
+
+.episodes-header {
+  margin: 100px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.episodes-header h2 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.2px; /* 123.75% */
+  letter-spacing: 2.88px;
+}
+
+.episodes-header button {
+  width: 178px;
+  height: 51px;
+  border-radius: 6px;
+  border-style: none;
+  background-color: #118DA8;
+  color: #FFF;
+  
+
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+}
+
+.episodes-cards {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 60px;
+}
+
+.episod-card {
+  display: flex;
+  border-radius: 32px;
+  background: #000;
+  gap: 53px;
+  padding: 40px;
+}
+
+.episod-card-img {
+  min-width: 389px;
+  min-height: 432px;
+  max-width: 389px;
+  max-height: 432px;
+}
+
+.episod-card-category {
+  border-radius: 6px;
+  background: #191919;
+  padding: 0 16px;
+  margin-bottom: 48px;
+  color: #FFF;
+  border-style: none;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+.episod-card-number {
+  margin-bottom: 18px;
+
+  color: #118DA8;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+}
+
+.episod-card h3 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70.4px; /* 110% */
+  letter-spacing: 2.56px;
+  margin-bottom: 28px;
+}
+
+.episod-card-text {
+  margin-bottom: 18px;
+
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+}
+
+.episod-card-button {
+  color: #FFF;
+  padding: 12px 0;
+  border-radius: 6px;
+  background: #118DA8;
+  width: 208px;
+  height: 51px;
+  border-style: none;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+/*----------------------------Jacob-----------------------*/
+
+.Jacob {
+  display: flex;
+  gap: 60px;
+
+  margin: 0 20px;
+  padding: 100px 50px;
+}
+
+.Jacob-content {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.Jacob-content-button {
+  width: 112px;
+  height: 112px;
+  border-radius: 400px;
+  background: #118DA8;
+  border-style: none;
+}
+
+.Jacob-content-meet {
+  color: #118DA8;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  text-decoration: none;
+}
+
+.Jacob-content h3 {
+  margin-bottom: 28px;
+
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.2px; /* 121.846% */
+  letter-spacing: 2.88px;
+}
+
+.Jacob-content-text {
+  margin-bottom: 33px;
+
+  color: rgba(255, 255, 255, 0.70);
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+}
+
+.Jacob-content-img {
+  width: 650px;
+  height: 743px;
+  border-radius: 12px;
+}
+
+/*----------------------------subcribe-----------------------*/
+
+.subscribe {
+  display: flex;
+  justify-content: start;
+  margin: 100px 50px;
+  border-radius: 32px;
+  background: #000;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.subscribe-content {
+  padding: 85px 151px 85px 60px;
+}
+
+.subscribe-text {
+  color: #118DA8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; 
+}
+
+.subscribe-header {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.2px; /* 110% */
+  letter-spacing: 2.88px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subscribe-form input {
+  width: 522px;
+  height: 82px; 
+  border-radius: 6px;
+  border: 1px solid #191919;
+  background: #191919;
+
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px; /* 120% */
+}
+
+.subscribe-form-button {
+  width: 87px;
+  height: 48px;
+  border-radius: 6px;
+  background: #118DA8;
+  color:#FFF;
+  border-style: none;
+}
+
+/*----------------------------comment-----------------------*/
+
+.comment {
+  padding: 100px 50px;
+  margin: 0 20px;
+}
+
+.comment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.comment-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  width: 420px;
+  height: 321px;
+  border-radius: 32px;
+  background: #000;
+  padding: 54px 0 0 50px;;
+}
+
+.comment-star {
+  width: 110px;
+  height: 17px;
+}
+
+.comment-list-item-text {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.2px; /* 120% */
+}
+
+.comment-list-item-name {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px; /* 120% */
+}
+
+/*----------------------------comment-----------------------*/
+
+.footer {
+  margin: 0 20px;
+  padding: 100px 70px;
+}
+
+.footer-logo {
+  width: 224px;
+  height: 46px;
+  margin-bottom: 23px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-link {
+  width: 24px;
+  height: 24px;
+}
